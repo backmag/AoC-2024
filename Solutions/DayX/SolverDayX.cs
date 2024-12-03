@@ -1,5 +1,6 @@
 ﻿namespace AoC_2024.Solutions.DayX
 {
+    // template class for new days
     public class SolverDayX : Solver
     {
         private readonly InputService _inputService;
