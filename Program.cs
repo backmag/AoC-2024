@@ -1,5 +1,6 @@
 ﻿using AoC_2024.Solutions.Day01;
 using AoC_2024.Solutions.Day02;
+using AoC_2024.Solutions.Day03;
 
 
 namespace AoC_2023
@@ -15,7 +16,7 @@ namespace AoC_2023
         }
         public static void Main(string[] args)
         {
-            string day = "02";
+            string day = "03";
             var inputPath = GetInputPathForDay(day);
             var inputService = new InputService(inputPath);
 
@@ -45,7 +46,7 @@ namespace AoC_2023
             {
                 "01" => new SolverDay1(inputService),
                 "02" => new SolverDay2(inputService),
-                //"03" => new SolverDay3(inputService),
+                "03" => new SolverDay3(inputService),
                 //"04" => new SolverDay4(inputService),
                 //"05" => new SolverDay5(inputService),
                 //"06" => new SolverDay6(inputService),
